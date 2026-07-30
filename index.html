@@ -20,97 +20,30 @@
     html { scroll-behavior: smooth; }
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
-        "PingFang TC", "Microsoft JhengHei", sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
       color: var(--text);
-      background:
-        radial-gradient(circle at top right, rgba(217,130,104,.13), transparent 30rem),
-        var(--bg);
+      background: radial-gradient(circle at top right, rgba(217,130,104,.13), transparent 30rem), var(--bg);
       line-height: 1.85;
       -webkit-font-smoothing: antialiased;
     }
-    .hero {
-      padding: 64px 20px 34px;
-      text-align: center;
-    }
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 7px 13px;
-      border-radius: 999px;
-      background: rgba(217,130,104,.12);
-      color: #a95f4b;
-      font-size: 14px;
-      font-weight: 700;
-      letter-spacing: .04em;
-    }
-    h1 {
-      margin: 18px 0 8px;
-      font-size: clamp(32px, 6vw, 48px);
-      line-height: 1.25;
-      letter-spacing: .02em;
-    }
+    .hero { padding: 64px 20px 34px; text-align: center; }
+    .badge { display: inline-flex; align-items: center; padding: 7px 13px; border-radius: 999px; background: rgba(217,130,104,.12); color: #a95f4b; font-size: 14px; font-weight: 700; letter-spacing: .04em; }
+    h1 { margin: 18px 0 8px; font-size: clamp(32px, 6vw, 48px); line-height: 1.25; letter-spacing: .02em; }
     .updated { margin: 0; color: var(--muted); font-size: 15px; }
-    main {
-      width: min(900px, calc(100% - 32px));
-      margin: 0 auto 70px;
-      padding: clamp(26px, 5vw, 56px);
-      background: var(--paper);
-      border: 1px solid rgba(234,223,211,.95);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
-    }
-    .intro {
-      margin-top: 0;
-      padding: 18px 20px;
-      border-left: 4px solid var(--accent);
-      border-radius: 4px 14px 14px 4px;
-      background: #fff7f2;
-    }
-    h2 {
-      margin: 2.4em 0 .7em;
-      padding-bottom: .45em;
-      border-bottom: 1px solid var(--line);
-      font-size: clamp(21px, 3.5vw, 27px);
-      line-height: 1.4;
-    }
-    h3 {
-      margin: 1.8em 0 .45em;
-      font-size: 19px;
-      line-height: 1.5;
-    }
+    main { width: min(900px, calc(100% - 32px)); margin: 0 auto 70px; padding: clamp(26px, 5vw, 56px); background: var(--paper); border: 1px solid rgba(234,223,211,.95); border-radius: 28px; box-shadow: var(--shadow); }
+    .intro { margin-top: 0; padding: 18px 20px; border-left: 4px solid var(--accent); border-radius: 4px 14px 14px 4px; background: #fff7f2; }
+    h2 { margin: 2.4em 0 .7em; padding-bottom: .45em; border-bottom: 1px solid var(--line); font-size: clamp(21px, 3.5vw, 27px); line-height: 1.4; }
+    h3 { margin: 1.8em 0 .45em; font-size: 19px; line-height: 1.5; }
     p { margin: .75em 0; }
     ul, ol { padding-left: 1.45em; }
     li { margin: .3em 0; }
-    a {
-      color: #a95f4b;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
-      overflow-wrap: anywhere;
-    }
-    .info {
-      display: grid;
-      grid-template-columns: 145px 1fr;
-      gap: 8px 16px;
-      padding: 20px;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: #fcf8f3;
-    }
+    a { color: #a95f4b; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
+    .info { display: grid; grid-template-columns: 145px 1fr; gap: 8px 16px; padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: #fcf8f3; }
     .info strong { color: #65564b; }
-    footer {
-      padding: 0 20px 42px;
-      text-align: center;
-      color: var(--muted);
-      font-size: 14px;
-    }
+    footer { padding: 0 20px 42px; text-align: center; color: var(--muted); font-size: 14px; }
     @media (max-width: 640px) {
       .hero { padding-top: 44px; }
-      main {
-        width: min(100% - 20px, 900px);
-        padding: 24px 20px 34px;
-        border-radius: 22px;
-      }
+      main { width: min(100% - 20px, 900px); padding: 24px 20px 34px; border-radius: 22px; }
       .info { grid-template-columns: 1fr; gap: 2px; }
       .info strong:not(:first-child) { margin-top: 8px; }
       h2 { margin-top: 2em; }
@@ -137,7 +70,7 @@
     <div class="info">
       <strong>應用程式名稱</strong><span>記得歐</span>
       <strong>開發者名稱</strong><span>JideOh Studio</span>
-      <strong>聯絡電子郵件</strong><span><a href="mailto:chfonwu@gmail.com">chfonwu@gmail.com</a></span>
+      <strong>聯絡電子郵件</strong><span><a href="mailto:jideohstudio@outlook.com">jideohstudio@outlook.com</a></span>
       <strong>所在地區</strong><span>台灣</span>
     </div>
 
@@ -249,7 +182,7 @@
     <p>若您對本隱私權政策、本應用程式的資料處理方式或資料權利有任何疑問，請透過以下方式聯絡：</p>
     <div class="info">
       <strong>開發者名稱</strong><span>JideOh Studio</span>
-      <strong>電子郵件</strong><span><a href="mailto:chfonwu@gmail.com">chfonwu@gmail.com</a></span>
+      <strong>電子郵件</strong><span><a href="mailto:jideohstudio@outlook.com">jideohstudio@outlook.com</a></span>
       <strong>所在地區</strong><span>台灣</span>
     </div>
     <p>我們將在合理期間內回覆您的詢問。</p>
